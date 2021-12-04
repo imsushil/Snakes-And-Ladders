@@ -1,4 +1,4 @@
-import com.systemdesign.Board;
+import com.systemdesign.model.Board;
 import com.systemdesign.exception.InvalidLadderException;
 import com.systemdesign.exception.InvalidSnakeException;
 import org.junit.jupiter.api.Assertions;

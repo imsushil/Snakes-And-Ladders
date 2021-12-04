@@ -1,5 +1,9 @@
 package com.systemdesign;
 
+import com.systemdesign.model.Board;
+import com.systemdesign.model.Dice;
+import com.systemdesign.model.Player;
+
 import java.util.Scanner;
 
 public class Game {

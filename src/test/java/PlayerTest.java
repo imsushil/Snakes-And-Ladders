@@ -1,4 +1,4 @@
-import com.systemdesign.Player;
+import com.systemdesign.model.Player;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

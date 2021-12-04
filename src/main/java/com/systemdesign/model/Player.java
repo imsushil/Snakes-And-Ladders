@@ -1,7 +1,9 @@
-package com.systemdesign;
+package com.systemdesign.model;
+
+import com.systemdesign.exception.InvalidScoreException;
 
 public class Player {
-    private String name;
+    private final String name;
     private int score;
     private static final int MAX_SCORE = Board.getInstance().getTotalBoxes();
 
@@ -18,6 +20,7 @@ public class Player {
     }
 
     public void setScore(int boxNumber) {
+        if(boxNumber > MAX_SCORE) throw new InvalidScoreException(boxNumber + " is not a valid box number.");
         this.score = boxNumber;
     }
 
